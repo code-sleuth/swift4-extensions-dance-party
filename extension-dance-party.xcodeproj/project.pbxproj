@@ -14,6 +14,8 @@
 		CD465B042003626900ED6AE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD465B022003626900ED6AE7 /* LaunchScreen.storyboard */; };
 		CD465B0F2003626900ED6AE7 /* extension_dance_partyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD465B0E2003626900ED6AE7 /* extension_dance_partyTests.swift */; };
 		CD465B1A2003626A00ED6AE7 /* extension_dance_partyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD465B192003626A00ED6AE7 /* extension_dance_partyUITests.swift */; };
+		CD465B282003650700ED6AE7 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD465B272003650700ED6AE7 /* UIButtonExt.swift */; };
+		CD465B2A2003697B00ED6AE7 /* helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD465B292003697B00ED6AE7 /* helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CD465B152003626A00ED6AE7 /* extension-dance-partyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "extension-dance-partyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD465B192003626A00ED6AE7 /* extension_dance_partyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension_dance_partyUITests.swift; sourceTree = "<group>"; };
 		CD465B1B2003626A00ED6AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD465B272003650700ED6AE7 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		CD465B292003697B00ED6AE7 /* helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				CD465B002003626900ED6AE7 /* Assets.xcassets */,
 				CD465B022003626900ED6AE7 /* LaunchScreen.storyboard */,
 				CD465B052003626900ED6AE7 /* Info.plist */,
+				CD465B272003650700ED6AE7 /* UIButtonExt.swift */,
+				CD465B292003697B00ED6AE7 /* helpers.swift */,
 			);
 			path = "extension-dance-party";
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD465AFC2003626900ED6AE7 /* ViewController.swift in Sources */,
+				CD465B282003650700ED6AE7 /* UIButtonExt.swift in Sources */,
 				CD465AFA2003626900ED6AE7 /* AppDelegate.swift in Sources */,
+				CD465B2A2003697B00ED6AE7 /* helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
