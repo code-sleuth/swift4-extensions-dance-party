@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD465AFA2003626900ED6AE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD465AF92003626900ED6AE7 /* AppDelegate.swift */; };
+		CD465AFC2003626900ED6AE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD465AFB2003626900ED6AE7 /* ViewController.swift */; };
+		CD465AFF2003626900ED6AE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD465AFD2003626900ED6AE7 /* Main.storyboard */; };
+		CD465B012003626900ED6AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD465B002003626900ED6AE7 /* Assets.xcassets */; };
+		CD465B042003626900ED6AE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD465B022003626900ED6AE7 /* LaunchScreen.storyboard */; };
+		CD465B0F2003626900ED6AE7 /* extension_dance_partyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD465B0E2003626900ED6AE7 /* extension_dance_partyTests.swift */; };
+		CD465B1A2003626A00ED6AE7 /* extension_dance_partyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD465B192003626A00ED6AE7 /* extension_dance_partyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD465B0B2003626900ED6AE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD465AEE2003626900ED6AE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD465AF52003626900ED6AE7;
+			remoteInfo = "extension-dance-party";
+		};
+		CD465B162003626A00ED6AE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD465AEE2003626900ED6AE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD465AF52003626900ED6AE7;
+			remoteInfo = "extension-dance-party";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD465AF62003626900ED6AE7 /* extension-dance-party.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "extension-dance-party.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD465AF92003626900ED6AE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD465AFB2003626900ED6AE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD465AFE2003626900ED6AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD465B002003626900ED6AE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD465B032003626900ED6AE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD465B052003626900ED6AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD465B0A2003626900ED6AE7 /* extension-dance-partyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "extension-dance-partyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD465B0E2003626900ED6AE7 /* extension_dance_partyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension_dance_partyTests.swift; sourceTree = "<group>"; };
+		CD465B102003626900ED6AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD465B152003626A00ED6AE7 /* extension-dance-partyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "extension-dance-partyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD465B192003626A00ED6AE7 /* extension_dance_partyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension_dance_partyUITests.swift; sourceTree = "<group>"; };
+		CD465B1B2003626A00ED6AE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD465AF32003626900ED6AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD465B072003626900ED6AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD465B122003626900ED6AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD465AED2003626900ED6AE7 = {
+			isa = PBXGroup;
+			children = (
+				CD465AF82003626900ED6AE7 /* extension-dance-party */,
+				CD465B0D2003626900ED6AE7 /* extension-dance-partyTests */,
+				CD465B182003626A00ED6AE7 /* extension-dance-partyUITests */,
+				CD465AF72003626900ED6AE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD465AF72003626900ED6AE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD465AF62003626900ED6AE7 /* extension-dance-party.app */,
+				CD465B0A2003626900ED6AE7 /* extension-dance-partyTests.xctest */,
+				CD465B152003626A00ED6AE7 /* extension-dance-partyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD465AF82003626900ED6AE7 /* extension-dance-party */ = {
+			isa = PBXGroup;
+			children = (
+				CD465AF92003626900ED6AE7 /* AppDelegate.swift */,
+				CD465AFB2003626900ED6AE7 /* ViewController.swift */,
+				CD465AFD2003626900ED6AE7 /* Main.storyboard */,
+				CD465B002003626900ED6AE7 /* Assets.xcassets */,
+				CD465B022003626900ED6AE7 /* LaunchScreen.storyboard */,
+				CD465B052003626900ED6AE7 /* Info.plist */,
+			);
+			path = "extension-dance-party";
+			sourceTree = "<group>";
+		};
+		CD465B0D2003626900ED6AE7 /* extension-dance-partyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD465B0E2003626900ED6AE7 /* extension_dance_partyTests.swift */,
+				CD465B102003626900ED6AE7 /* Info.plist */,
+			);
+			path = "extension-dance-partyTests";
+			sourceTree = "<group>";
+		};
+		CD465B182003626A00ED6AE7 /* extension-dance-partyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD465B192003626A00ED6AE7 /* extension_dance_partyUITests.swift */,
+				CD465B1B2003626A00ED6AE7 /* Info.plist */,
+			);
+			path = "extension-dance-partyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD465AF52003626900ED6AE7 /* extension-dance-party */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD465B1E2003626A00ED6AE7 /* Build configuration list for PBXNativeTarget "extension-dance-party" */;
+			buildPhases = (
+				CD465AF22003626900ED6AE7 /* Sources */,
+				CD465AF32003626900ED6AE7 /* Frameworks */,
+				CD465AF42003626900ED6AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "extension-dance-party";
+			productName = "extension-dance-party";
+			productReference = CD465AF62003626900ED6AE7 /* extension-dance-party.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD465B092003626900ED6AE7 /* extension-dance-partyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD465B212003626A00ED6AE7 /* Build configuration list for PBXNativeTarget "extension-dance-partyTests" */;
+			buildPhases = (
+				CD465B062003626900ED6AE7 /* Sources */,
+				CD465B072003626900ED6AE7 /* Frameworks */,
+				CD465B082003626900ED6AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD465B0C2003626900ED6AE7 /* PBXTargetDependency */,
+			);
+			name = "extension-dance-partyTests";
+			productName = "extension-dance-partyTests";
+			productReference = CD465B0A2003626900ED6AE7 /* extension-dance-partyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD465B142003626900ED6AE7 /* extension-dance-partyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD465B242003626A00ED6AE7 /* Build configuration list for PBXNativeTarget "extension-dance-partyUITests" */;
+			buildPhases = (
+				CD465B112003626900ED6AE7 /* Sources */,
+				CD465B122003626900ED6AE7 /* Frameworks */,
+				CD465B132003626900ED6AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD465B172003626A00ED6AE7 /* PBXTargetDependency */,
+			);
+			name = "extension-dance-partyUITests";
+			productName = "extension-dance-partyUITests";
+			productReference = CD465B152003626A00ED6AE7 /* extension-dance-partyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD465AEE2003626900ED6AE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Ibrahim Mbaziira";
+				TargetAttributes = {
+					CD465AF52003626900ED6AE7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CD465B092003626900ED6AE7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD465AF52003626900ED6AE7;
+					};
+					CD465B142003626900ED6AE7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD465AF52003626900ED6AE7;
+					};
+				};
+			};
+			buildConfigurationList = CD465AF12003626900ED6AE7 /* Build configuration list for PBXProject "extension-dance-party" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD465AED2003626900ED6AE7;
+			productRefGroup = CD465AF72003626900ED6AE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD465AF52003626900ED6AE7 /* extension-dance-party */,
+				CD465B092003626900ED6AE7 /* extension-dance-partyTests */,
+				CD465B142003626900ED6AE7 /* extension-dance-partyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD465AF42003626900ED6AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD465B042003626900ED6AE7 /* LaunchScreen.storyboard in Resources */,
+				CD465B012003626900ED6AE7 /* Assets.xcassets in Resources */,
+				CD465AFF2003626900ED6AE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD465B082003626900ED6AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD465B132003626900ED6AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD465AF22003626900ED6AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD465AFC2003626900ED6AE7 /* ViewController.swift in Sources */,
+				CD465AFA2003626900ED6AE7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD465B062003626900ED6AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD465B0F2003626900ED6AE7 /* extension_dance_partyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD465B112003626900ED6AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD465B1A2003626A00ED6AE7 /* extension_dance_partyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD465B0C2003626900ED6AE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD465AF52003626900ED6AE7 /* extension-dance-party */;
+			targetProxy = CD465B0B2003626900ED6AE7 /* PBXContainerItemProxy */;
+		};
+		CD465B172003626A00ED6AE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD465AF52003626900ED6AE7 /* extension-dance-party */;
+			targetProxy = CD465B162003626A00ED6AE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD465AFD2003626900ED6AE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD465AFE2003626900ED6AE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD465B022003626900ED6AE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD465B032003626900ED6AE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD465B1C2003626A00ED6AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD465B1D2003626A00ED6AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD465B1F2003626A00ED6AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = "extension-dance-party/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stackAdvantage.extension-dance-party";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD465B202003626A00ED6AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = "extension-dance-party/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stackAdvantage.extension-dance-party";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD465B222003626A00ED6AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = "extension-dance-partyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stackAdvantage.extension-dance-partyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/extension-dance-party.app/extension-dance-party";
+			};
+			name = Debug;
+		};
+		CD465B232003626A00ED6AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = "extension-dance-partyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stackAdvantage.extension-dance-partyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/extension-dance-party.app/extension-dance-party";
+			};
+			name = Release;
+		};
+		CD465B252003626A00ED6AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = "extension-dance-partyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stackAdvantage.extension-dance-partyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "extension-dance-party";
+			};
+			name = Debug;
+		};
+		CD465B262003626A00ED6AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL7H7USHXZ;
+				INFOPLIST_FILE = "extension-dance-partyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stackAdvantage.extension-dance-partyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "extension-dance-party";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD465AF12003626900ED6AE7 /* Build configuration list for PBXProject "extension-dance-party" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD465B1C2003626A00ED6AE7 /* Debug */,
+				CD465B1D2003626A00ED6AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD465B1E2003626A00ED6AE7 /* Build configuration list for PBXNativeTarget "extension-dance-party" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD465B1F2003626A00ED6AE7 /* Debug */,
+				CD465B202003626A00ED6AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD465B212003626A00ED6AE7 /* Build configuration list for PBXNativeTarget "extension-dance-partyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD465B222003626A00ED6AE7 /* Debug */,
+				CD465B232003626A00ED6AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD465B242003626A00ED6AE7 /* Build configuration list for PBXNativeTarget "extension-dance-partyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD465B252003626A00ED6AE7 /* Debug */,
+				CD465B262003626A00ED6AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD465AEE2003626900ED6AE7 /* Project object */;
+}
